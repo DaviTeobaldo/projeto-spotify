@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Inscrever-se - Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
+    
+    <style>
+      /* Adicionar padding-top para evitar que o conteúdo seja sobreposto pelo cabeçalho */
+      #inscricao {
+        padding-top: 80px; /* Ajuste o valor conforme necessário */
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Início do Cabeçalho -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/spotify.svg" width="142">
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="planos.html" class="nav-link">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a href="ajuda.html" class="nav-link">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a href="baixar.html" class="nav-link">Baixar</a>
+              </li>
+              <li class="nav-item divisor"></li>
+              <li class="nav-item">
+                <a href="inscrever-se.html" class="nav-link">Inscrever-se</a>
+              </li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Entrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <!-- Formulário de Inscrição -->
+    <section id="inscricao" class="d-flex" style="background: linear-gradient(50deg,#ff4169,#7c26f8); min-height: 100vh;">
+      <div class="container align-self-center">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h2 class="text-center">Inscrever-se</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Endereço de E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                  </div>
+                  <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                  </div>
+                  <div class="form-group">
+                    <label for="confirmaSenha">Confirme sua Senha</label>
+                    <input type="password" class="form-control" id="confirmaSenha" placeholder="Confirme sua senha">
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-custom btn-roxo btn-block">Inscrever-se</button>
+                  <p class="text-center mt-3">
+                    Já tem uma conta? <a href="login.html" class="text-primary">Entrar</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="imagens/spotify.svg" width="142">
+          </div>
+          <div class="col-md-2">
+            <h4>company</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Empregos</a></li>
+              <li><a href="">Imprensa</a></li>
+              <li><a href="">Novidades</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>comunidades</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Artistas</a></li>
+              <li><a href="">Desenvolvedores</a></li>
+              <li><a href="">Marcas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>links úteis</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Presentes</a></li>
+              <li><a href="">Player da web</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href=""><img src="imagens/facebook.png"></a>
+              </li>
+              <li>
+                <a href=""><img src="imagens/twitter.png"></a>
+              </li>
+              <li>
+                <a href=""><img src="imagens/instagram.png"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
